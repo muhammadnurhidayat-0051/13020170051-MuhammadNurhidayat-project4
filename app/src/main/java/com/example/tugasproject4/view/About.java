@@ -25,7 +25,7 @@ public class About extends AppCompatActivity {
 
         imageView = findViewById(R.id.image_about);
 
-        Glide.with(this)
+        Glide.with(this)g
                 .load("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQtS476YIp3NiGt4WnE3ddlQK9bVCe6wS4hxifX9F5doC04MREn&usqp=CAU")
                 .into(imageView);
     }
